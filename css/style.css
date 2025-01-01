@@ -1,0 +1,13 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-links a {
+    text-decoration: none;
+    font-weight: 400;
+}
