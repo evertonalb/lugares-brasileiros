@@ -4,9 +4,10 @@ body {
 
 /* Header */
 
-.header {
+.header h2 {
     font-size: 24px;
     font-weight: bold;
+    display: inline;
 }
 
 .header-links a {
@@ -16,7 +17,7 @@ body {
 
 /* Hero section */
 
-.hero .image {
+.header .image {
     height: 200px;
     width: 500px;
     background-color: gray;
