@@ -1,21 +1,44 @@
+
+/* General */
+
 body {
     font-family: Roboto, sans-serif;
 }
 
+button {
+    border: none;
+    border-radius: 8px;
+    background-color: #3882f6;
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: 700;
+    padding: 10px 32px 8px 32px
+}
+
 /* Header */
+
+.header {
+    background-color: #1f2937;
+}
 
 .header h2 {
     font-size: 24px;
     font-weight: bold;
     display: inline;
+    color: #f9faf8;
+    font-size: 24px;
 }
 
-.header-links a {
+.header-links a, .header p {
     text-decoration: none;
-    font-weight: 400;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
-/* Hero section */
+.header h1 {
+    color: #f9faf8;
+    font-size: 48px;
+}
 
 .header .image {
     height: 200px;
@@ -27,7 +50,7 @@ body {
     align-items: center;
 }
 
-/* Inforamtion section */
+/* Information section */
 
 .infos .image {
     height: 100px;
