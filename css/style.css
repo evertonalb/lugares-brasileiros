@@ -69,3 +69,19 @@ button {
     color: #1f2937;
     font-size: 18px;
 }
+
+/* Quote section */
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.quote .author {
+    font-style: normal;
+    font-size: 24px;
+    font-weight: bold;
+}
