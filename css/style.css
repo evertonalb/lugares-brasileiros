@@ -149,6 +149,50 @@ button {
     margin-right: 38px;
 }
 
+/* Action */
+
+.action, .action * {
+    display: flex;
+}
+
+.action {
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+.action .content {
+    margin-top: 10px;
+    padding: 0 110px;
+    background-color: #3882f6;
+    border-radius: 6px;
+    color: #f9faf8;
+    height: 40%;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action .text * {
+    /* reset */
+    margin: 0;
+    padding: 0;
+}
+
+.action .text {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.action button {
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 6px;
+    border: 3px solid #f9faf8;
+    width: 140px;
+}
+
 /* Footer */
 
 .footer {
